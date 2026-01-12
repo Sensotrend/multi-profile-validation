@@ -1,0 +1,42 @@
+id: com.sensotrend.multiProfileValidation
+canonical: https://sensotrend.com/fhir/multi-profile-validation
+name: MultipleProfileValidationExample
+title: Example of Multi-Profile Validation 
+description: An example showing how the FHIR tooling supports validating that a FHIR resource conforms to multiple profiles.
+status: draft # draft | active | retired | unknown
+version: 0.1.0-ci
+fhirVersion: 4.0.1
+copyrightYear: 2025+
+releaseLabel: ci-build # ci-build | draft | qa-preview | ballot | trial-use | release | update | normative+trial-use
+license: CC0-1.0
+jurisdiction: http://unstats.un.org/unsd/methods/m49/m49.htm#150 "Europe" # urn:iso:std:iso:3166#EU
+publisher:
+  name: Sensotrend Oy
+  url: https://sensotrend.com
+  email: mikael@sensotrend.com
+
+dependencies:
+  hl7.fhir.fi.base: latest
+  hl7.fhir.eu.base: latest
+  # hl7.fhir.eu.eps: latest
+  hl7.fhir.uv.ipa: latest
+  hl7.fhir.uv.ips: latest
+  
+pages:
+  index.md:
+    title: Home
+  examples.md:
+    title: Examples
+  downloads.md:
+    title: Downloads
+  versions.md:
+    title: Version History
+
+parameters:
+  ipa-comparison: "{last}"
+  ips-comparison: "{last}"
+
+menu:
+  Home: index.html
+  Examples: examples.html
+  Downloads: downloads.html
