@@ -4,7 +4,7 @@ Title: "A patient passing all profile checks."
 Description: "An example of a Patient resource that passes multiple different profile validations."
 Usage: #example
 * id = "patient-valid"
-* identifier
+* identifier[+]
   * use = #official
   * type.coding = http://terminology.hl7.org/CodeSystem/v2-0203#NNFIN
   * system = #urn:oid:1.2.246.21
