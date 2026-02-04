@@ -16,12 +16,19 @@ publisher:
   email: mikael@sensotrend.com
 
 dependencies:
-  hl7.fhir.fi.base: latest
-  hl7.fhir.eu.base: latest
-  # hl7.fhir.eu.eps: latest
   hl7.fhir.uv.ipa: latest
   hl7.fhir.uv.ips: latest
-  
+  hl7.fhir.eu.base: latest
+  # hl7.fhir.eu.eps: latest
+  # Denmark
+  hl7.fhir.dk.core: latest
+  # Finland
+  hl7.fhir.fi.base: latest
+  # Norway
+  hl7.fhir.no.basis: latest
+  # Sweden
+  hl7se.fhir.base: latest
+
 pages:
   index.md:
     title: Home

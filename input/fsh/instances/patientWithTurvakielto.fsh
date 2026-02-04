@@ -12,8 +12,8 @@ Usage: #example
   * value = "010190-999X"
 * birthDate = "1990-01-01"
 * name
-  * given = "Turva"
-  * family = "Henkilö"
-  * text = "Turva Henkilö"
+  * given = "John"
+  * family = "Doe"
+  * text = "John Doe"
 * active = true
 * extension[MunicipalityCode].valueCoding = urn:oid:1.2.246.537.6.21|2003#020 "Akaa"
