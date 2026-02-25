@@ -3,6 +3,7 @@ InstanceOf: Patient
 Title: "A patient explicitly declaring conformance and passing all profile checks."
 Description: "An example of a Patient resource that passes multiple different profile validations."
 Usage: #example
+* id = "patient-valid-declaring-multiple-profiles"
 * meta
   * profile[+] = "http://hl7.org/fhir/uv/ipa/StructureDefinition/ipa-patient"
   * profile[+] = "http://hl7.org/fhir/uv/ips/StructureDefinition/Patient-uv-ips"
@@ -11,7 +12,6 @@ Usage: #example
   * profile[+] = "https://hl7.fi/fhir/finnish-base-profiles/StructureDefinition/fi-base-patient"
   * profile[+] = "http://hl7.no/fhir/StructureDefinition/no-basis-Patient"
   * profile[+] = "http://hl7.se/fhir/ig/base/StructureDefinition/SEBasePatient"
-* id = "patient-valid-declaring-multiple-profiles"
 * identifier[+]
   * use = #official
   * type.coding = http://terminology.hl7.org/CodeSystem/v2-0203#NNFIN

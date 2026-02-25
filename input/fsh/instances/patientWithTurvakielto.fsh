@@ -3,8 +3,8 @@ InstanceOf: FiBasePatient
 Title: "Patient with a TURVAKIELTO security label."
 Description: "An example of a FI Base patient that has the TURVAKIELTO security label indicating non-disclosure for personal safety reasons."
 Usage: #example
-* meta.security[0] = FiBaseSecurityLabelCS#TURVAKIELTO
 * id = "patient-with-turvakielto"
+* meta.security[0] = FiBaseSecurityLabelCS#TURVAKIELTO
 * identifier[PIC]
   * use = #official
   * type.coding = http://terminology.hl7.org/CodeSystem/v2-0203#NNFIN
