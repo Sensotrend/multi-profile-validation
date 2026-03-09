@@ -4,7 +4,7 @@ name: MultipleProfileValidationExample
 title: Example of Multi-Profile Validation 
 description: An example showing how the FHIR tooling supports validating that a FHIR resource conforms to multiple profiles.
 status: draft # draft | active | retired | unknown
-version: 0.1.0-ci
+version: 0.2.0-ci
 fhirVersion: 4.0.1
 copyrightYear: 2025+
 releaseLabel: ci-build # ci-build | draft | qa-preview | ballot | trial-use | release | update | normative+trial-use
