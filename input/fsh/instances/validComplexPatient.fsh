@@ -1,5 +1,5 @@
-Instance: ValidComplexPatientDeclaringProfiles
-InstanceOf: PatiPatientProfileImposingProfilesent
+Instance: ValidComplexPatient
+InstanceOf: PatientProfileImposingProfiles
 Title: "A more complex patient resource example explicitly declaring conformance and passing all profile checks."
 Description: "A more complex example of a Patient resource that passes multiple different profile validations."
 Usage: #example
