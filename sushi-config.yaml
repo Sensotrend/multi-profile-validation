@@ -19,7 +19,7 @@ dependencies:
   hl7.fhir.uv.ipa: latest
   hl7.fhir.uv.ips: latest
   hl7.fhir.eu.base: latest
-  # hl7.fhir.eu.eps: latest
+  hl7.fhir.eu.eps: current
   # Denmark
   hl7.fhir.dk.core: latest
   # Finland
@@ -42,6 +42,7 @@ pages:
 parameters:
   ipa-comparison: "{last}"
   ips-comparison: "{last}"
+  pin-canonicals: pin-all
 
 menu:
   Home: index.html
